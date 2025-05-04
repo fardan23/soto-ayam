@@ -1,0 +1,93 @@
+.container {
+    background-image: url(img/background1.jpg);
+    background-size: cover;   
+}
+
+.header {
+    width: 800;
+    margin: auto;
+    background-color: #FFCF9D;
+    /* padding : bawah atas kiri kanan */
+    padding: 20px;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Segoe UI';
+    text-transform:uppercase;
+    text-shadow: 3px 3px #FFB000;
+}
+
+.gambar {
+    height: 500px;
+    background-image: url(img/soto-ayam.jpg);
+    background-size: cover;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFCC70;
+}
+
+td, th {
+    border: 1px solid lightslategray;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFADD;
+}
+
+.tulisan .karya{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Segoe UI';
+}
+
+.tulisan .khas{
+    font-size: 20px;
+    font-family:'Segoe UI';
+    text-decoration: underline;
+}
+
+.tulisan i{
+    color: darkred;
+}
+
+.tulisan .tentang{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+ul {
+    padding: 0px 20px 20px 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.judulJenis {
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+    font-size: 20px;
+    font-family:'Segoe UI';
+}
+
+.footer {
+    background-color: #FFB000;
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 20px;
+    padding: 5;
+    color: darkred;
+}
+
+.footerName {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
